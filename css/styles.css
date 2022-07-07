@@ -56,6 +56,19 @@ body {
     overflow-x: hidden;
 }
 
+.rodape {
+    display: flex;
+    width: 100%;
+    background:linear-gradient(to right, #ffffff, #0060fa );
+}
+
+.display-6 {
+    border-bottom-style:solid;
+    color: #013ea0;
+    font-weight: 700;
+    font-size: 32px;
+}
+
 /* ===============Conteudo index============= */
 
 div.banner {
@@ -71,7 +84,7 @@ div.banner img {
 
 section.index {
     margin: auto;
-    height: 500vh;
+    height: 450vh;
 }
 
 .iea {
@@ -95,10 +108,42 @@ section.index {
 .locais {
     display: flex;
     margin-top: 10vh;
+    margin-bottom: 0;
+}
+
+.residencia:hover {
+    display: flex;
+    transform: translateY(-50px);
+    border-radius: 1rem;
+    background: linear-gradient(to right, rgb(233, 236, 16), rgb(241, 241, 216) );
+}
+
+.empresa:hover {
+    display: flex;
+    transform: translateY(-50px);
+    border-radius: 1rem;
+    background: linear-gradient(to right, rgb(241, 243, 152), rgb(219, 219, 82) );
+}
+
+.fazenda:hover {
+    display: flex;
+    transform: translateY(-50px);
+    border-radius: 1rem;
+    background: linear-gradient(to right, rgb(241, 243, 152), rgb(230, 230, 26) );
+}
+
+.locais img {
+    display: flex;
+    margin: 0 auto;
+    max-width: 200px;
+    max-height: 200px;
 }
 
 
+/* ====================responsivo======================== */
+
 @media screen and (max-width: 986px) {
+
     .container-fluid img {
         display: flex;
         width: 120px;
@@ -113,5 +158,40 @@ section.index {
         align-items: center;
         text-align: center;
     }
+
+    .locais {
+        display: flex;
+        flex-direction: row;
+        font-size: 12px;
+        flex-direction: column;
+    }
+
+    .locais img {
+        width: 170px;
+    }
+
+    .residencia:hover {
+        display: flex;
+        transform: translateY(-50px);
+        border-radius: 1rem;
+        background: linear-gradient(to right, rgb(233, 236, 16), rgb(241, 241, 216) );
+    }
+    
+    .empresa:hover {
+        display: flex;
+        transform: translateY(-50px);
+        border-radius: 1rem;
+        background: linear-gradient(to right, rgb(241, 243, 152), rgb(219, 219, 82) );
+    }
+    
+    .fazenda:hover {
+        display: flex;
+        transform: translateY(-50px);
+        border-radius: 1rem;
+        background: linear-gradient(to right, rgb(241, 243, 152), rgb(230, 230, 26) );
+    }
+
+
+
 }
 
