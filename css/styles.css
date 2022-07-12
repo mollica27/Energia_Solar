@@ -67,8 +67,20 @@ footer {
 
 .social {
     display: flex;
-    justify-content: flex-end;
-    margin-right: 10rem;
+    justify-content: space-between;
+    
+}
+
+.endereco {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.endereco img {
+    display: flex;
+    width: 25px;
+    height: 25px;
 }
 
 .redesocial {
@@ -76,6 +88,7 @@ footer {
     gap: 0.5rem;
     flex-direction: column;
     margin-top: 3rem;
+    
 }
 
 .redesocial img {
@@ -89,6 +102,7 @@ footer {
     margin-top: 3rem;
     flex-direction: column;
     gap: 0.5rem;
+    
 }
 
 .display-6 {
@@ -119,25 +133,7 @@ footer {
     position: fixed;
     opacity: 0.5;
 }
-/* ======================btn-voltar================ */
-.btn-voltar {
-    display: flex;
-    width: 60px;
-    margin-left: 90px;
-}
 
-.btn-voltar img:hover {
-    opacity: unset;
-    width: 100px;
-    height: 100px;
-}
-
-.btn-voltar img {
-    display: flex;
-    width: 75px;
-    height: 75px;
-    opacity: 0.5;
-}
 
 /* ===============Conteudo index============= */
 
@@ -207,8 +203,9 @@ section.index {
 .locais img {
     display: flex;
     margin: 0 auto;
-    max-width: 200px;
-    max-height: 200px;
+    /* margin-top: 1rem; */
+    width: 100%;
+    height: 100%;
 }
 
 /* ===========================portfolio============================ */
