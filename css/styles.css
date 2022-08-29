@@ -253,11 +253,20 @@ section.index {
     width: 100%;
 }
 
+.localizacao {
+    display: flex;
+}
+
 .mapa {
     display: flex;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
     width: 100%;
+   
+}
+
+.texto-mapa {
+    text-align: justify;
+    padding: 0;
+    margin-left: 2rem;
 }
 
 
