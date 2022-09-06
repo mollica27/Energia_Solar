@@ -277,8 +277,13 @@ section.index {
 
     section.index {
         margin: auto;
-        height: 700vh;
+        height: 850vh;
     }
+
+   .sobre {
+        margin: auto;
+        height: 600vh;
+   }
 
     /* ======================================rodape=================================== */
     footer {
