@@ -320,7 +320,7 @@ header h1{
 
     section.index {
         margin: auto;
-        height: 800vh;
+        height: 630vh;
     }
 
     .locais {
@@ -361,7 +361,7 @@ header h1{
 /* =========================sobre===========================*/
    .sobre {
         margin: auto;
-        height: 720vh;
+        height: 500vh;
    }
 
    .localizacao {
