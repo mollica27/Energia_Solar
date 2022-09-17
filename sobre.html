@@ -94,51 +94,104 @@
           <img src="img/fotos/equipe.jpeg" alt="equipe" />
         </div>
         <h1 class="display-6" style="margin-top: 8rem">Venha nos conhecer</h1>
-      <div class="localizacao">
-        <div class="mapa">
+        <div class="localizacao">
+          <div class="mapa">
             <iframe
-            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14623.881085964045!2d-45.352409!3d-23.6053991!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x574b807913c077c8!2sAquecedores%20Solar%20Castilho!5e0!3m2!1spt-BR!2sbr!4v1657248367333!5m2!1spt-BR!2sbr"
-            width="300"
-            height="250"
-            style="border-radius: 2rem"
-            allowfullscreen=""
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-          >
-          </iframe>
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14623.881085964045!2d-45.352409!3d-23.6053991!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x574b807913c077c8!2sAquecedores%20Solar%20Castilho!5e0!3m2!1spt-BR!2sbr!4v1657248367333!5m2!1spt-BR!2sbr"
+              width="300"
+              height="250"
+              style="border-radius: 2rem"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            >
+            </iframe>
+          </div>
+
+          <div class="texto-mapa">
+            <p style="text-align: left">
+              Com um atendimento de excel&ecirc;ncia e uma equipe experiente,
+              somos uma empresa din&acirc;mica e inovadora, que preza sempre
+              pela qualidade, alto<br class="d-none d-md-inline" />desempenho e
+              durabilidade. Nossos produtos s&atilde;o certificados pelos mais
+              r&iacute;gidos padr&otilde;es do mercado.
+            </p>
+            <p style="text-align: left">
+              Guiados pelas palavras-chave &ldquo;aquecimento e vida&rdquo; e
+              &ldquo;sa&uacute;de e vida&rdquo;, n&oacute;s utilizamos nossa
+              tecnologia em energia t&eacute;rmica e controle de &aacute;gua
+              para oferecer produtos e servi&ccedil;os &uacute;nicos. Com isso,
+              buscamos prover vidas pr&oacute;speras, alegres e prazerosas para
+              nossos clientes, ao mesmo tempo que cuidamos de um ambiente
+              sustent&aacute;vel.
+            </p>
+          </div>
         </div>
-      
-        <div class="texto-mapa">
-          <p style="text-align: left">
-            Com um atendimento de excel&ecirc;ncia e uma equipe experiente,
-            somos uma empresa din&acirc;mica e inovadora, que preza sempre pela
-            qualidade, alto<br class="d-none d-md-inline" />desempenho e
-            durabilidade. Nossos produtos s&atilde;o certificados pelos mais
-            r&iacute;gidos padr&otilde;es do mercado.
-          </p>
-          <p style="text-align: left">
-            Guiados pelas palavras-chave &ldquo;aquecimento e vida&rdquo; e
-            &ldquo;sa&uacute;de e vida&rdquo;, n&oacute;s utilizamos nossa
-            tecnologia em energia t&eacute;rmica e controle de &aacute;gua para
-            oferecer produtos e servi&ccedil;os &uacute;nicos. Com isso,
-            buscamos prover vidas pr&oacute;speras, alegres e prazerosas para
-            nossos clientes, ao mesmo tempo que cuidamos de um ambiente
-            sustent&aacute;vel.
-          </p>
+        <h1 class="display-6" style="margin-top: 1rem">Entre em contato</h1>
+        <button
+          type="button"
+          class="btn btn-primary"
+          style="margin-top: 1rem"
+          data-bs-toggle="modal"
+          data-bs-target="#exampleModal"
+          data-bs-whatever="@getbootstrap"
+        >
+          Envie uma Mensagem
+        </button>
+
+        <div
+          class="modal fade"
+          id="exampleModal"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">
+                <form>
+                  <div class="mb-3">
+                    <label for="recipient-name" class="col-form-label"
+                      >Recipient:</label
+                    >
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="recipient-name"
+                    />
+                  </div>
+                  <div class="mb-3">
+                    <label for="message-text" class="col-form-label"
+                      >Message:</label
+                    >
+                    <textarea class="form-control" id="message-text"></textarea>
+                  </div>
+                </form>
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-bs-dismiss="modal"
+                >
+                  Close
+                </button>
+                <button type="button" class="btn btn-primary">
+                  Send message
+                </button>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-      <h1 class="display-6" style="margin-top: 1rem">Entre em contato</h1>
-      <div class="mb-3" style="margin-top: 1rem">
-        <label for="exampleFormControlInput1" class="form-label">Endereço de Email</label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="E-mail">
-      </div>
-      <div class="mb-3">
-        <label for="exampleFormControlTextarea1" class="form-label">Mensagem</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-      </div>
-      <div class="d-grid gap-2 d-md-flex justify-content-md-end" >
-        <button class="btn btn-primary" type="button">Enviar</button>
-      </div>
       </section>
     </main>
     <footer>
