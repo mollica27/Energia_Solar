@@ -239,6 +239,7 @@ header h1{
     justify-content: space-evenly;
     gap: 2vw;
     padding: 0 2vw;
+    margin-bottom: 2rem;
 }
 .gallery-items{
     width: 340px;
@@ -312,11 +313,16 @@ header h1{
 
 @media screen and (max-width: 900px) {
 
+/* ========================index=================== */
+
     section.index {
         margin: auto;
-        height: 850vh;
+        height: 800vh;
     }
+/* =============================Portfolio==================== */
 
+
+/* =========================sobre===========================*/
    .sobre {
         margin: auto;
         height: 600vh;
