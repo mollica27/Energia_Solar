@@ -325,7 +325,15 @@ header h1{
 /* =========================sobre===========================*/
    .sobre {
         margin: auto;
-        height: 600vh;
+        height: 700vh;
+   }
+
+   .localizacao {
+        flex-direction: column;
+   }
+
+   .texto-mapa {
+        margin-top: 1rem;
    }
 
     /* ======================================rodape=================================== */
