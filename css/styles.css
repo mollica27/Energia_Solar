@@ -61,10 +61,11 @@ body {
 }
 
 footer {
+    /* display: flex; */
     width: 100%;
-    height: 20rem;
+    height: 18rem;
     background: linear-gradient(to right, #ffffff, #0060fa);
-    position: relative;
+    position: static;
     bottom: 0;
     padding-top: 2rem;
 }
@@ -72,8 +73,7 @@ footer {
 .social {
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 3rem;
+    justify-content: space-around;
 }
 
 .logo-footer img {
@@ -266,7 +266,7 @@ header h1{
 .sobre {
     display: flex;
     width: 100%;
-    height: 350vh;
+    height: 380vh;
     flex-direction: column;
     margin-top: 1rem;
 }
@@ -306,6 +306,10 @@ header h1{
     margin-left: 2rem;
 }
 
+.contato-email{
+    height: 15rem;
+    width: 35rem;
+}
 
 
 /* ====================responsivo======================== */
@@ -357,11 +361,15 @@ header h1{
 /* =========================sobre===========================*/
    .sobre {
         margin: auto;
-        height: 680vh;
+        height: 720vh;
    }
 
    .localizacao {
         flex-direction: column;
+   }
+
+   .mapa {
+    display: flex;
    }
 
    .texto-mapa {
@@ -372,9 +380,9 @@ header h1{
     footer {
         /* display: flex; */
         width: 100%;
-        height: 45rem;
+        height: 20rem;
         background: linear-gradient(to right, #ffffff, #0060fa);
-        position: relative;
+        position: static;
         bottom: 0;
         padding-top: .5rem;
     }
