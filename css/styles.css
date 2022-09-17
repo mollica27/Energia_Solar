@@ -61,11 +61,10 @@ body {
 }
 
 footer {
-    /* display: flex; */
     width: 100%;
     height: 20rem;
     background: linear-gradient(to right, #ffffff, #0060fa);
-    position: static;
+    position: relative;
     bottom: 0;
     padding-top: 2rem;
 }
@@ -319,6 +318,39 @@ header h1{
         margin: auto;
         height: 800vh;
     }
+
+    .locais {
+        display: flex;
+        flex-direction: row;
+        font-size: 12px;
+        flex-direction: column;
+    }
+
+    .locais img {
+        width: 170px;
+    }
+
+    .residencia:hover {
+        display: flex;
+        transform: translateY(-50px);
+        border-radius: 1rem;
+        background: linear-gradient(to right, rgb(233, 236, 16), rgb(241, 241, 216));
+    }
+
+    .empresa:hover {
+        display: flex;
+        transform: translateY(-50px);
+        border-radius: 1rem;
+        background: linear-gradient(to right, rgb(241, 243, 152), rgb(219, 219, 82));
+    }
+
+    .fazenda:hover {
+        display: flex;
+        transform: translateY(-50px);
+        border-radius: 1rem;
+        background: linear-gradient(to right, rgb(241, 243, 152), rgb(230, 230, 26));
+    }
+
 /* =============================Portfolio==================== */
 
 
@@ -416,38 +448,6 @@ header h1{
         flex-direction: column;
         align-items: center;
         text-align: center;
-    }
-
-    .locais {
-        display: flex;
-        flex-direction: row;
-        font-size: 12px;
-        flex-direction: column;
-    }
-
-    .locais img {
-        width: 170px;
-    }
-
-    .residencia:hover {
-        display: flex;
-        transform: translateY(-50px);
-        border-radius: 1rem;
-        background: linear-gradient(to right, rgb(233, 236, 16), rgb(241, 241, 216));
-    }
-
-    .empresa:hover {
-        display: flex;
-        transform: translateY(-50px);
-        border-radius: 1rem;
-        background: linear-gradient(to right, rgb(241, 243, 152), rgb(219, 219, 82));
-    }
-
-    .fazenda:hover {
-        display: flex;
-        transform: translateY(-50px);
-        border-radius: 1rem;
-        background: linear-gradient(to right, rgb(241, 243, 152), rgb(230, 230, 26));
     }
 
     /* ===============btn-whats=========== */
