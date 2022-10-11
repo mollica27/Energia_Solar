@@ -1,6 +1,20 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-48FFB504W1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-48FFB504W1");
+    </script>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -149,7 +163,9 @@
           <div class="modal-dialog">
             <div class="modal-content">
               <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Nova Mensagem</h5>
+                <h5 class="modal-title" id="exampleModalLabel">
+                  Nova Mensagem
+                </h5>
                 <button
                   type="button"
                   class="btn-close"
@@ -163,11 +179,7 @@
                     <label for="email-name" class="col-form-label"
                       >Email:</label
                     >
-                    <input
-                      type="text"
-                      class="form-control"
-                      id="email-name"
-                    />
+                    <input type="text" class="form-control" id="email-name" />
                   </div>
                   <div class="mb-3">
                     <label for="message-text" class="col-form-label"
@@ -185,9 +197,7 @@
                 >
                   Fechar
                 </button>
-                <button type="button" class="btn btn-primary">
-                  Enviar
-                </button>
+                <button type="button" class="btn btn-primary">Enviar</button>
               </div>
             </div>
           </div>
